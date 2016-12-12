@@ -1,0 +1,10 @@
+Requires subroutines and thing-at-point-utils
+
+One way to install is putting this into your init-file:
+
+(add-to-list 'load-path "PATH/TO/WERKSTATT/subroutines")
+(add-to-list 'load-path "PATH/TO/WERKSTATT/thing-at-point-utils")
+(add-to-list 'load-path "PATH/TO/WERKSTATT/sh-werk")
+(require 'thingatpt-utils-core)
+(require 'thing-at-point-utils)
+(require 'sh-werk)
